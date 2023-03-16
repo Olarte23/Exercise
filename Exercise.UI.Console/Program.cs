@@ -8,7 +8,7 @@ Console.WriteLine("Enter your beam to calculate: \n");
 String? n = Console.ReadLine();
 
 var beam = new Logic($"{n}");
-
+Console.WriteLine("Hello");
 Console.WriteLine(beam.Validator());
 
 
